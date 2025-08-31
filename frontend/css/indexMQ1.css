@@ -1,0 +1,33 @@
+@media screen and (min-width:768px){
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #00000056;
+    }
+
+    #code-home{
+        font-size: 35px;
+        color: #8be8fd6e;
+        padding: 5px;
+        border: 2px solid rgba(79, 49, 83, 0.349);
+        border-radius: 45px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #code-home:hover{
+        color: #8be8fdd7;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    menu{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        padding: 5px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

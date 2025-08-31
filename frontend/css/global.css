@@ -1,0 +1,13 @@
+@import 'index.css';
+@import 'indexMQ1.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282a36;
+    color: white;
+}

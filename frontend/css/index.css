@@ -1,0 +1,122 @@
+:root{
+
+    --cor0: #282A36;
+    --cor1: #6272A4;
+    --cor2: #44475A;
+    --cor3: #FFB86C;
+    --cor4: #8BE9FD;
+    --cor5: #BD93F9;
+}
+
+.destaque{
+    border: 2px solid var(--cor2);
+    border-radius: 45px;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+#code-home{
+    font-size: 50px;
+}
+
+menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+#burguer{
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid rgba(79, 49, 83, 0.349);
+    border-radius: 45px;
+    transition: all 0.3s ease-in-out;
+}
+
+#burguer:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(137, 43, 226, 0.5);
+}
+
+@media screen and (min-width:768px) {
+    #burguer{
+        display: none;
+    }
+
+    menu{
+        display: flex;
+    }
+}
+.iten-box{
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid rgba(79, 49, 83, 0.349);
+    border-radius: 45px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.iten-box > a{
+    text-decoration: none;
+    color: white;
+}
+
+.iten-box:hover{
+    transition: all 0.5s ease-in-out;
+    transform: translate(10px);
+    background-color: rgba(137, 43, 226, 0.5);
+}
+
+.fundo-foto-pessoal{
+    margin: 30px 0px 30px 0px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 40% 60% 65% 35% /
+    40% 35% 65% 60%;
+    background-color: chocolate;
+}
+
+.foto-pessoal{
+    transform: translate(-20%, 10%);
+    position: absolute;
+    margin: 30px 0px 30px 0px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 40% 60% 65% 35% /
+    40% 35% 65% 60%;
+    background-color: aqua;
+}
+
+
+main{
+    margin: 5px;
+}
+
+.aprentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mim > p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+
+.projetos{
+    margin-top: 35px;
+}
