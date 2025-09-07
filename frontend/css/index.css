@@ -8,11 +8,7 @@
     --cor5: #BD93F9;
 }
 
-.destaque{
-    border: 2px solid var(--cor2);
-    border-radius: 45px;
-    padding: 15px;
-}
+
 
 nav{
     display: flex;
@@ -102,7 +98,14 @@ menu{
 
 
 main{
+    display: flex;
+    flex-direction: column;
     margin: 5px;
+    border: 2px solid red;
+    padding: 8px;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
 }
 
 .aprentation{
@@ -111,12 +114,93 @@ main{
     align-items: center;
 }
 
+.destaque{
+    border: 2px solid var(--cor2);
+    border-radius: 45px;
+    padding: 20px;
+    width: 1200px;
+    
+}
+
+.habilidades, .sobre-mim{ /* fazendo a base ser para dispositiveis moveis */
+    width: 530px;
+}
+
 .sobre-mim > p{
     text-indent: 30px;
     text-align: justify;
 }
 
+.habilidades{
+    display: flex;
+    flex-direction: column;
+}
 
-.projetos{
-    margin-top: 35px;
+.habilidades > h2{
+    margin-bottom: 20px;
+}
+
+.habilidade{
+    border: 1px solid red;
+    border-radius: 45px;
+    align-items: center;
+    padding: 8px;
+    margin: 6px;
+}
+
+.frotend-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+    gap: 15px;
+    padding: 10px;
+}
+
+.descricao{
+    display: flex;
+    border: 1px solid rgb(255, 145, 0);
+    padding: 5px;
+    gap: 10px;
+    text-indent: 10px;
+}
+
+.image-letf{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+}
+
+.titulo-descricao{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.descricao > p{
+    padding: 10px;
+}
+
+.image-letf{
+    border: 1px solid limegreen;
+}
+
+/*
+.colunas{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.colunas > .coluna{
+    width: calc(40% - 7.5px);
+}
+*/
+
+
+footer{
+    justify-content: center;
+    background-color: #00000056;
+    padding: 15px;
 }
