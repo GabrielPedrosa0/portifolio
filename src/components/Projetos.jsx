@@ -74,6 +74,7 @@ export default function Projetos() {
                       target="_blank"
                       rel="noreferrer"
                       aria-label={`${t.projetos.demo}: ${projeto.nome}`}
+                      title={t.projetos.demo}
                       className={botaoIcone}
                     >
                       <ExternalLink size={17} aria-hidden="true" />
